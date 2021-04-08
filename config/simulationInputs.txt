@@ -3,17 +3,17 @@
 #---------------------------------------------------------------------------------------------------------------------------
 Parameter     | Value | Description
 #---------------------------------------------------------------------------------------------------------------------------
-Experiments   | 10    | Number of Experiment MC realizations. Positive integer
+Experiments  | 1           | Number of Experiment MC realizations. Positive integer
 #---------------------------------------------------------------------------------------------------------------------------
-Observations  | 10    | Number of Observation MC realizations per experiment realization. Positive integer.
+Observations | 1           | Number of Observation MC realizations per experiment realization. Positive integer.
 #---------------------------------------------------------------------------------------------------------------------------
-Detectors     | 10    | Number of Detector MC realizations per observation realization. Positive Integer.
+Detectors    | 250         | Number of Detector MC realizations per observation realization. Positive Integer.
 #---------------------------------------------------------------------------------------------------------------------------
 Resolution    | 1.000 | Resolution for integration over bands and spectra in GHz. Positive floating point value.
 #---------------------------------------------------------------------------------------------------------------------------
 Foregrounds   | False | Include Foregrounds? True or False
 #---------------------------------------------------------------------------------------------------------------------------
-Correlations  | True  | Include white noise correlations? True or False
+Correlations | False         | Include white noise correlations? True or False
 #---------------------------------------------------------------------------------------------------------------------------
 Percentile Lo | 15.9  | Low percentile to be shown in output spreads
 #---------------------------------------------------------------------------------------------------------------------------
